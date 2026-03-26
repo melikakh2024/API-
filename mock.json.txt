@@ -1,0 +1,112 @@
+[
+  {
+    "company": "TechCorp",
+    "industry": "Software",
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice",
+        "skills": ["Python", "SQL", "Docker"],
+        "projects": [
+          {
+            "project_id": 101,
+            "name": "Data Pipeline",
+            "tags": ["ETL", "API"],
+            "budget": {
+              "amount": 12000,
+              "currency": "USD",
+              "breakdown": {"hardware": 2000, "software": 3000, "manpower": 7000}
+            }
+          },
+          {
+            "project_id": 102,
+            "name": "ML Model",
+            "tags": ["ML", "Analytics"],
+            "budget": {
+              "amount": 15000,
+              "currency": "EUR",
+              "breakdown": {"hardware": 5000, "software": 5000, "manpower": 5000}
+            }
+          }
+        ],
+        "address": {
+          "city": "Berlin",
+          "geo": {"lat": 52.52, "lng": 13.405},
+          "history": [{"year": 2020, "status": "HQ"}, {"year": 2021, "status": "Remote"}]
+        }
+      },
+      {
+        "id": 2,
+        "name": "Bob",
+        "skills": ["Java", "AWS", "Airflow"],
+        "projects": [
+          {
+            "project_id": 103,
+            "name": "Backend API",
+            "tags": ["API", "Microservice"],
+            "budget": {
+              "amount": 18000,
+              "currency": "USD",
+              "breakdown": {"hardware": 3000, "software": 5000, "manpower": 10000}
+            }
+          }
+        ],
+        "address": {
+          "city": "Vienna",
+          "geo": {"lat": 48.2082, "lng": 16.3738},
+          "history": [{"year": 2019, "status": "Branch"}, {"year": 2022, "status": "HQ"}]
+        }
+      }
+    ]
+  },
+  {
+    "company": "DataWorks",
+    "industry": "Analytics",
+    "users": [
+      {
+        "id": 1,
+        "name": "Charlie",
+        "skills": ["Python", "Pandas", "SQL"],
+        "projects": [
+          {
+            "project_id": 201,
+            "name": "Data Cleaning",
+            "tags": ["ETL", "Cleaning"],
+            "budget": {
+              "amount": 9000,
+              "currency": "USD",
+              "breakdown": {"hardware": 1000, "software": 2000, "manpower": 6000}
+            }
+          }
+        ],
+        "address": {
+          "city": "Zurich",
+          "geo": {"lat": 47.3769, "lng": 8.5417},
+          "history": [{"year": 2021, "status": "HQ"}]
+        }
+      },
+      {
+        "id": 2,
+        "name": "Dana",
+        "skills": ["C++", "Docker", "GCP"],
+        "projects": [
+          {
+            "project_id": 202,
+            "name": "Microservice",
+            "tags": ["API", "Microservice"],
+            "budget": {
+              "amount": 16000,
+              "currency": "EUR",
+              "breakdown": {"hardware": 3000, "software": 5000, "manpower": 8000}
+            }
+          }
+        ],
+        "address": {
+          "city": "Paris",
+          "geo": {"lat": 48.8566, "lng": 2.3522},
+          "history": [{"year": 2020, "status": "Branch"}, {"year": 2023, "status": "HQ"}]
+        }
+      }
+    ]
+  }
+]
